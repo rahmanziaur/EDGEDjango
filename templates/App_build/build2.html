@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title_block %} Build{% endblock %}
+{% block body_block %}
+<div class="container my-4">
+  <h3 style="text-align: center;">Choose a dataset and Build Model</h3>
+  <hr>
+  <div class="row">
+    <div class="col-8 my-3">
+      <form action="{% url 'build3' %}" method="post">
+        {% csrf_token %}
+        <label for="csvfile">Choose a database: </label>
+        <select name="csvfile">
+          {% for csv in csvs %}
+          <option value="{{csv.csv_file}}">
+            {{csv.csv_file}}
+          </option>
+          {% endfor %}
+        </select>
+        <input type="submit" value='Build model' class="btn btn-primary btn-sm">
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
