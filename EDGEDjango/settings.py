@@ -123,5 +123,5 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGOUT_REDIRECT_URL = ''
-LOGIN_REDIRECT_URL = ''  # Change to your desired redirect path
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/'  # Change to your desired redirect path
