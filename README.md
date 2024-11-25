@@ -77,6 +77,7 @@ Allows users to:
 
 **5. Run migrations:**
    python3 manage.py makemigrations
+   
    python3 manage.py migrate
 
 **6. Start the development server:**
