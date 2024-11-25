@@ -73,13 +73,13 @@ Allows users to:
    cd EDGEDjango
    
 **4. Install dependencies:**
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
 
 **5. Run migrations:**
-   python manage.py makemigrations
-   python manage.py migrate
+   python3 manage.py makemigrations
+   python3 manage.py migrate
 
 **6. Start the development server:**
-   python manage.py runserver
+   python3 manage.py runserver
    
 **7.** Open the application in browser at http://127.0.0.1:8000.
