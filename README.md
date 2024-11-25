@@ -67,7 +67,7 @@ Allows users to:
 
 ### Installation
 **1. Clone the repository:**
-   git clone https://github.com/mustain-billah/EDGEDjango.git
+   git clone https://github.com/rahmanziaur/EDGEDjango
    
 **3. Navigate to the project directory:**
    cd EDGEDjango
