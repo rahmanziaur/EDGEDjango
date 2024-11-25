@@ -2,3 +2,4 @@ django
 pandas
 scikit-learn
 numpy
+django-crispy-forms
