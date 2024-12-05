@@ -84,3 +84,6 @@ Allows users to:
    python3 manage.py runserver
    
 **7.** Open the application in browser at http://127.0.0.1:8000.
+
+Videos on this project (Step by step):
+https://youtube.com/playlist?list=PL1i5urQUb6bh9xtCNhGLyJBCTmP-sEnLG&si=cjCcDW5cE-MwbT6Y
